@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgb(87, 87, 167);
+    color: white;
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+    
+}
+.container h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+.container span{
+    color: rgb(34, 219, 34);
+    font-size: 27px;
+    border-bottom: 4px solid rgb(34, 219, 34);
+    padding-bottom: 7px;
+}
+.display{
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    color: chocolate;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+.display input{
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+.container button img{
+    width: 20px;
+    margin-right: 10px;
+}
+.container button{
+    border: 0;
+    outline: 0;
+    background-color: rgb(42, 180, 42);
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
